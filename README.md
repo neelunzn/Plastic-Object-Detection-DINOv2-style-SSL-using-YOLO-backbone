@@ -1,9 +1,8 @@
 # Plastic-Object-Detection-DINOv2-style-SSL-using-YOLO-backbone
 Plastic detection using DINOv2-style Self-Supervised Learning pretraining YOLOv10, YOLOv11, and YOLOv12 backbone, followed by fine-tuned YOLO detector
 
-# ===============================================================
 # Summary
-# ===============================================================
+
 This notebook implements a **DINOv2-style Self-Supervised Learning (SSL)** pretraining on the **YOLOv10, YOLOv11, and YOLOv12 backbone** (conv net), followed by fine-tuning a YOLOv10, YOLOv11, and YOLOv12 detector on Plastic object besides seashore dataset. Finally, it visualizes learned features via 2D **PCA** with k-means coloring.
 
 # Description:
@@ -17,4 +16,3 @@ This notebook implements a **DINOv2-style Self-Supervised Learning (SSL)** pretr
    4) Fine-tune YOLOv10 detector initialized from those weights.
    5) Evaluate (mP, mR, mAP@0.50, mAP@0.50–0.95).
    6) PCA of backbone features (unsupervised clusters).
-# ===============================================================
