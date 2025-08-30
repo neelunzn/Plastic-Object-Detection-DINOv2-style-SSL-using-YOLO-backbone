@@ -16,3 +16,8 @@ This notebook implements a **DINOv2-style Self-Supervised Learning (SSL)** pretr
    4) Fine-tune YOLOv10 detector initialized from those weights.
    5) Evaluate (mP, mR, mAP@0.50, mAP@0.50–0.95).
    6) PCA of backbone features (unsupervised clusters).
+
+Here are the Kaggle link of Plastic Detection DINOv2-style SSL using YOLOv10, YOLOv11, and YOLOv12 backbone: 
+https://www.kaggle.com/code/neelunzn/plastic-detection-dinov2-style-self-sl-yolov10s
+https://www.kaggle.com/code/neelunzn/plastic-detection-dinov2-style-self-sl-yolov11s
+https://www.kaggle.com/code/neelunzn/plastic-detection-dinov2-style-self-sl-yolov12s
